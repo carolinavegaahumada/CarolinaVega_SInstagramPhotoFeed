@@ -1,0 +1,68 @@
+/*body{
+    background: black;
+  
+}*/
+.fondo{
+    width:80%;
+    height:100%;
+    background: lightgray;
+    padding-bottom:2%;
+    margin:auto;
+    
+}
+.header{
+    width:100%;
+    height:100px;
+    background:rgba(245, 245, 245, 0.795);
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    font-family: 'Chela One', cursive;
+    
+}
+.bodyContent{
+    width:45%;
+    margin:auto;
+    display:block;
+    justify-content: center;
+    background-color: whitesmoke;
+    margin-top: 20px;   
+    padding-bottom:1px;
+    margin-bottom:5px;
+}
+
+.photoHead{
+    width:100%;
+    height: min-content;
+    display:flex;
+    justify-content: space-between;
+}
+.photoHead h3{
+    padding:0 0.5%;
+}
+.photoHead h3:nth-of-type(1){
+    color:black;
+    font-family: 'Chela One', cursive;
+}
+.photoHead h3:nth-of-type(2){
+    color:grey;
+    font-family: 'Baskervville', serif;
+}
+.photo{
+    width:100%;
+    
+}
+img{
+    display:block;
+    margin:auto;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    
+}
+
+.photoDescrip p{
+font-family: 'Buda', cursive;
+text-align: justify;
+padding: 0 5%;
+}
